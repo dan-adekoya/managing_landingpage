@@ -62,6 +62,13 @@ nav ul li a{
     font-size: 15px;
     font-weight: 400;
     color: var(--primary-two);
+    transition: all .3s;
+}
+nav ul li a:hover{
+    opacity: .6;
+}
+.cta:hover{
+    opacity: .6;
 }
 nav button, .header_main_content button, .testimonials .btn{
     padding: 12px 25px;
@@ -72,6 +79,7 @@ nav button, .header_main_content button, .testimonials .btn{
     outline: none;
     border-radius: 100px;
     box-shadow: 0px 5px 20px 0px hsla(12, 88%, 59%, 0.582);
+    transition: all .3s;
 }
 .header_main{
     display: flex;
@@ -226,6 +234,7 @@ aside{
 }
 .aside-big, .aside-small{
     position: absolute;
+    pointer-events: none;
 }
 .aside-small-m{
     display: none;
@@ -242,6 +251,7 @@ aside .btn{
     color: var(--primary-one);
     outline: none;
     border-radius: 100px;
+    transition: all .3s;
     box-shadow: 0px 5px 20px 0px hsla(12, 88%, 59%, 0.582);
 }
 footer{
@@ -303,6 +313,7 @@ footer form button{
     border-radius: 100px;
     cursor: pointer;
     outline: none;
+    transition: all .3s;
     border: none;
     background: var(--primary-one);
     color: white;

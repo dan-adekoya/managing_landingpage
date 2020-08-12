@@ -24,6 +24,8 @@
 }
 .attribution { 
     font-size: 11px; text-align: center; 
+    color: white;
+    background-color: var(--neutral-d-blue);
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
